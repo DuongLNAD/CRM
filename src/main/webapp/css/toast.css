@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.status {
+	top: 0;
+	right: -50%;
+	position: absolute;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	width: 180px;
+	height: 50px;
+	background-color: white;
+	transition: all ease 1s;
+}
+.status span {
+	line-height: 50px;
+}
+
+.success {
+	color: blue;
+	box-shadow: 1px 1px 1px #233bd6;
+}
+
+.failed {
+	color: red;
+	box-shadow: 1px 1px 1px #ff0080;
+}
+
+.show {
+	right: -24%;
+}
+
+	
